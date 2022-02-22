@@ -1,0 +1,115 @@
+ 	   h1, h2, h3, h4, h5, h6 {
+    	      text-align: center;
+         }
+
+         p {
+            text-align: justify;
+         }
+
+        body {
+      	  background-color:#87CEFA;
+         }
+
+        #header {
+      	   background-color:#003153;
+            font-family: 'Dongle', sans-serif;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 5px;
+            padding-right: 5px;
+	        border-radius: 10px ;
+            color: white;
+         }  
+
+         #labyrinth {
+            position: relative;
+            float: left;
+            top: 80px;
+            left: 100px;
+            width: 30%;
+            padding: 20px;
+            background-color: #6CB4EE;
+            border-style: solid;
+            border-color:#003153;
+         }
+
+         #lake {
+            position: relative;
+            clear: left;
+            top: 110px;
+            left: 100px;
+            width: 30%;
+            padding: 20px;
+            background-color: #6CB4EE;
+            border-style: solid;
+            border-color:#003153;
+         }  
+
+         #cave {
+            position: relative;
+            float: right;
+            top: 80px;
+            right: 100px;
+            width: 30%;
+            padding: 20px;
+            background-color: #6CB4EE;
+            border-style: solid;
+            border-color:#003153;
+         }
+
+         #city {
+            position: relative;
+            float: right;
+            bottom: 465px;
+            right: 100px;
+            width: 30%;
+            padding: 20px;
+            background-color: #6CB4EE;
+            border-style: solid;
+            border-color:#003153;
+         }
+
+         #image {
+            width: 400px;
+            height: 260px;
+         }
+
+         #button {
+            left: 100px;
+            text-align: center;
+            font-size: 16px;
+            border-radius: 20px;
+            padding: 15px 32px;
+            background-color: #6CB4EE;
+        }
+
+        #button:visited {
+           filter: grayscale(100%);
+        }
+
+        #button:hover {
+           filter: grayscale(100%);
+        }
+
+        #button:active {
+           background-color: #003153;
+           color: white;
+        }
+
+        #icon {
+            position: absolute;
+            left: 1015px;
+            height: 66px;
+            width: 66px;
+        }
+
+        #icon_two {
+            position: absolute;
+            left: 1090px;
+            height: 66px;
+            width: 66px;
+        }
+
+        #icon:hover, #icon_two:hover {
+         filter: grayscale(100%);
+        }

@@ -1,0 +1,184 @@
+	  p, h1, h2, h3, h4, h5, h6 {
+    	    text-align: center;
+        }
+
+        body {
+      	  background-color:#87CEFA;
+        }
+    
+        .top {
+          z-index:2;
+          bottom: -24px;
+        }
+
+        .bottom {
+          z-index: 1;
+          right: 170px;
+          bottom: 25px;
+          position: absolute;
+        }
+        #header {
+      	  background-color:#003153;
+          font-family: 'Dongle', sans-serif;
+          padding-top: 10px;
+          padding-bottom: 10px;
+          padding-left: 5px;
+          padding-right: 5px;
+	        border-radius: 10px ;
+          color: white;
+      }
+
+        #products {
+          position: relative;
+          width: 85%;
+          height: 475px;
+          text-align: center;
+          margin: auto;
+          padding: 30px;
+    	    border-style: solid;
+          border-color:#003153
+    	    border-radius: 5px;
+    	    border-width: 5px;
+          background-color: #6CB4EE;	
+        }
+
+        #allies {
+          position: relative;
+          width: 85%;
+          height: 250px;
+          text-align: center;
+          margin: auto;
+          padding: 30px;
+    	    border-style: solid;
+          border-color:#003153
+    	    border-radius: 5px;
+    	    border-width: 5px;
+          background-color: #6CB4EE;	
+        }
+
+        #side {
+          position: relative;
+          float: left;
+          width: 150px;
+          height: 150px;
+          padding: 10px;
+          padding-top: 20px;
+        }
+
+        img.top {
+          transition: opacity 2s;
+        }
+
+        img.top:hover {
+          opacity:0;
+        }
+
+        #honey {
+      	position: relative;
+        float: left;
+        padding-bottom: 10px;
+        height: 130px;
+        width: 130px;
+        padding-top: 60px;
+        }
+      
+       #sub {
+       	position: relative;
+        float: left;
+        padding-bottom: 10px;
+        height: 130px;
+        width: 130px;
+        padding-top: 60px;
+       }
+
+       #subtext {
+        position: relative;
+        text-align: justify;
+        float: left;
+        padding-bottom: 10px;
+        padding-top: 60px;
+        padding-left: 4px;
+        padding-right: 11.45px;
+        height: 130px;
+        width: 135px;
+       }
+
+       #other {
+         border-radius: 1px;
+         border-style: solid;
+         border-color: #003153;
+       }
+
+       #dwargon {
+      	position: relative;
+        float: left;
+        padding-bottom: 50px;
+        height: 130px;
+        width: 130px;
+        padding-top: 20px;
+        padding-right: 10px;
+        }
+      
+       #sub_allies {
+       	position: relative;
+        float: left;
+        padding-bottom: 50px;
+        height: 130px;
+        width: 130px;
+        padding-top: 20px;
+        padding-right: 10px;
+       }
+
+       #dwargon_name {
+      	position: absolute;
+        font-size: 20px;
+        float:left;
+        padding-top: 140px;
+        }
+
+        #sub_names {
+       	position: absolute;
+        font-size: 20px;
+        float: left;
+        padding-top: 140px;
+       }
+
+       #button {
+            left: 100px;
+            text-align: center;
+            font-size: 16px;
+            border-radius: 20px;
+            padding: 15px 32px;
+            background-color: #6CB4EE;
+        }
+
+        #button:visited {
+           filter: grayscale(100%);
+        }
+
+        #button:hover {
+           filter: grayscale(100%);
+        }
+
+        #button:active {
+           background-color: #003153;
+           color: white;
+        }
+
+        #icon {
+            position: absolute;
+            left: 1015px;
+            height: 66px;
+            width: 66px;
+        }
+
+        #icon_two {
+            position: absolute;
+            left: 1090px;
+            height: 66px;
+            width: 66px;
+        }
+
+        #icon:hover, #icon_two:hover {
+         filter: grayscale(100%);
+        }

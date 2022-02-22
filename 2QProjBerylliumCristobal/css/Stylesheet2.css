@@ -1,0 +1,97 @@
+	p {
+      	text-align: center;
+      }
+
+      body {
+      	background-color:#87CEFA;
+      }
+      
+      h1, h2, h3, h4 {
+      	text-align: center;
+      }
+      
+      /* To make the hr black and have no border */
+      hr {
+      	height: 1px;
+        background-color: black;
+        border: none;
+      }
+      
+      /* To make the Organization have a background and I used the padding to spread the color*/
+      #header {
+      	background-color:#003153;
+        padding: 10px;
+        font-family: 'Dongle', sans-serif;
+        font-size: 50px;
+        color: white;
+      }
+      
+      /* To put 1 block of text on the left and to make a darker background than the body */
+      #cabinet {
+      	float: left;
+      	padding: 30px;
+    		border-style: none;
+    		border-radius: 5px;
+    		border-width: 5px;
+        	width: 500px;
+        	position: relative;
+        	left: 50px; /* Format */
+        	background-color: #6CB4EE;	
+        }
+      
+      /* To put 1 block of text on the right and to make a darker background than the body */
+      #military {
+      	float: right;
+      	padding: 30px; 
+    		border-style: none;
+    		border-radius: 5px;
+    		border-width: 5px;
+        	width: 500px;
+        	position: relative;
+        	right: 50px; /* Format */
+        	background-color: #6CB4EE;
+      }
+
+      #button {
+        position: absolute;
+        left: 100px;
+        text-align: center;
+        font-size: 16px;
+        border-radius: 20px;
+        top: 1000px;
+        padding: 15px 32px;
+        background-color: #6CB4EE;
+      }
+
+      #button:visited {
+         filter: grayscale(100%);
+      }
+
+      #button:hover {
+         filter: grayscale(100%);
+      }
+
+      #button:active {
+         background-color: #003153;
+         color: white;
+      }
+
+      #icon {
+          position: absolute;
+          top: 1000px;
+          left: 1015px;
+          height: 66px;
+          width: 66px;
+      }
+
+      #icon_two {
+          position: absolute;
+          top: 1000px;
+          left: 1090px;
+          height: 66px;
+          width: 66px;
+      }
+
+      #icon:hover, #icon_two:hover {
+       filter: grayscale(100%);
+      }
